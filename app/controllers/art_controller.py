@@ -1,18 +1,26 @@
 from flask import Blueprint, jsonify
+from app.models import ArtPiece
 
-# Create a blueprint for the art-related routes
-art_bp = Blueprint('art', __name__)
+art_bp = Blueprint("art", __name__)
 
-@art_bp.route('/artists', methods=['GET'])
-def get_artists():
-    # Dummy data for now; replace with database or service logic later
-    artists = [
-        {"name": "Van Gogh", "style": "Post-Impressionism"},
-        {"name": "Pablo Picasso", "style": "Cubism"}
-    ]
-    return jsonify(artists)
+@art_bp.route("/", methods=["GET"])
+def get_art_pieces():
+    art_pieces = ArtPiece.query.all()
+    return jsonify([{
+        "id": art.id,
+        "name": art.name,
+        "artist": art.artist,
+        "medium": art.medium
+    } for art in art_pieces])
 
-@art_bp.route('/artists/<int:artist_id>', methods=['GET'])
-def get_artist(artist_id):
-    # Simulate retrieving a single artist by ID
-    return jsonify({"name": "Van Gogh", "style": "Post-Impressionism", "id": artist_id})
+@art_bp.route("/<int:art_id>", methods=["GET"])
+def get_art_piece(art_id):
+    piece = ArtPiece.query.get(art_id)
+    if piece:
+        return jsonify({
+            "id": piece.id,
+            "name": piece.name,
+            "artist": piece.artist,
+            "medium": piece.medium
+        })
+    return jsonify({"error": "Art piece not found"}), 404
