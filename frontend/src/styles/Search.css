@@ -1,0 +1,119 @@
+/* src/pages/Search.css */
+
+/* Container for the entire Search page */
+.search-container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(180deg, #ffd2bd, #a6c4ff); /* Gradient from bottom (soft blue) to top (peachy orange) */
+    min-height: 100vh;  /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;  /* Adjusted to push content towards the top */
+}
+
+/* Title of the Search page */
+.search-container h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;  /* Increased margin for space */
+}
+
+/* Styling for the search input and button */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;  /* More space below the search bar */
+}
+
+.search-bar input {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 14px;  /* Increased font size */
+    border-radius: 4px;  /* More rounded corners */
+    border: 2px solid #8aabff;  /* Added border color */
+    width: 400px;  /* Increased width for the search box */
+    max-width: 100%;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);  /* Soft blue glow effect on focus */
+}
+
+.search-bar button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #8aabff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #7e99e0;  /* Slightly darker blue on hover */
+}
+
+/* Styling for the results container */
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.results-container p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Container to display images as grid */
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Individual image styling */
+.image-item {
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect on images */
+.image:hover {
+    transform: scale(1.05);  /* Zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Adding the zoom glass effect */
+.search-bar input {
+    background-image: url('https://image.shutterstock.com/image-vector/magnifying-glass-icon-zoom-in-260nw-1197919160.jpg');  /* Replace with your zoom icon */
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 40px;  /* Adjust padding for the zoom icon */
+}
+
+/* Make the placeholder text italicized */
+.search-bar input::placeholder {
+    text-align: left; /* Ensures placeholder text starts from the left */
+    font-style: italic; /* Make placeholder text italic */
+    font-family: 'Helvetica Neue', sans-serif;
+}
