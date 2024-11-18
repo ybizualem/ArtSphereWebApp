@@ -1,4 +1,4 @@
-# ArtSphere
+# ArtSphere (2nd Place WesHack🥳)
 
 Welcome to the repository for **ArtSphere**! This project demonstrates the integration of API data handling, in-memory operations, CRUD functionality, and cart management for an art collection. It showcases advanced skills in Flask development, data management, and seamless integration with a React-based frontend.
 
