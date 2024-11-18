@@ -32,7 +32,7 @@ One of our most innovative goals is to provide live notifications: if a user is 
 - **React** – Frontend framework for creating a dynamic user interface.
 
 
-### ✨ Features
+### 💫 Features
 
 - **API Integration:** Seamless integration with a React frontend using RESTful API endpoints.
 - **CRUD Operations:** Full control over the art collection, with endpoints for creating, reading, updating, and deleting art pieces.
