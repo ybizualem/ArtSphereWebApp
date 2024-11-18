@@ -25,14 +25,14 @@ Our vision for Art Sphere includes exciting future developments to enhance its c
 One of our most innovative goals is to provide live notifications: if a user is near an art piece on their list, the app will notify them in real-time, ensuring they never miss an opportunity to experience art they are passionate about. These features will make Art Sphere a truly immersive and globally connected platform for art exploration.
 
 
-### 🔧 Technologies Used
+## 🔧 Technologies Used
 
 - **Flask** – Python-based micro-framework for developing the backend.
 - **Pandas** – Data manipulation library for managing art collection data.
 - **React** – Frontend framework for creating a dynamic user interface.
 
 
-### 💫 Features
+## 💫 Features
 
 - **API Integration:** Seamless integration with a React frontend using RESTful API endpoints.
 - **CRUD Operations:** Full control over the art collection, with endpoints for creating, reading, updating, and deleting art pieces.
