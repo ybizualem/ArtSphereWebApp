@@ -1,5 +1,6 @@
 # ArtSphere (2nd Place WesHack🥳)
 
+Welcome to the repository for **ArtSphere**! This project demonstrates the integration of API data handling, in-memory operations, CRUD functionality, and cart management for an art collection. It showcases advanced skills in Flask development, data management, and seamless integration with a React-based frontend.
 
 ## ✨ Inspiration
 We noticed that when visiting museums, it’s easy to forget the art pieces you’ve seen before or struggle to find a specific piece you want to see. That’s why we created Art Sphere—an app designed to help you keep track of the art you’ve explored, create a wishlist of pieces you want to see in the future, and access detailed information about any particular artwork. Art Sphere is your personal guide to making the most of your art experiences, whether past, present, or future.
