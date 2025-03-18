@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f248c14c-fb9d-4693-aa00-aff9556888a9" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/app/controllers/art_controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/art_services.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/app/services/data_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/services/data_handler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "HannaSaffi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HannaSaffi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HannaSaffi/ArtSphereBackendTrial.git",
-    "accountId": "0a1a3ed8-1180-44ae-bf33-bbb87bd94f35"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HannaSaffi/ArtSphereBackendTrial.git&quot;,
+    &quot;accountId&quot;: &quot;0a1a3ed8-1180-44ae-bf33-bbb87bd94f35&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2owlOvMxp0RfyuMVwmz3EWbI3jD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,7 +52,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ArtSphereBackendTrial.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -56,7 +62,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.build",
@@ -91,8 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -105,6 +111,10 @@
       <option name="presentableId" value="Default" />
       <updated>1731788492517</updated>
       <workItem from="1731788494328" duration="3841000" />
+      <workItem from="1742323369172" duration="201000" />
+      <workItem from="1742323585060" duration="37000" />
+      <workItem from="1742323651615" duration="91000" />
+      <workItem from="1742323955214" duration="534000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -127,5 +137,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ArtSphereWebApp$test.coverage" NAME="test Coverage Results" MODIFIED="1742323703757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/app" />
   </component>
 </project>

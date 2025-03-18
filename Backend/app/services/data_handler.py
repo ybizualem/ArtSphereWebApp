@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Use the absolute path for your CSV file
-data_file = "/Users/yeabsirabizualem/Documents/f24(Jun1)/CSPS415_AI/ArtSphereBackendTrial/app/Met_Museum_Collection.csv"
+data_file = "/Users/yeabsirabizualem/Documents/hack/ArtSphereWebApp/Backend/Met_Museum_Collection.csv"
 
 def load_data():
     """Load data from the CSV file."""
