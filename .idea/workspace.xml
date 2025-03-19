@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f248c14c-fb9d-4693-aa00-aff9556888a9" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/Met_Museum_Collection.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/controllers/art_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/controllers/art_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/routes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/i8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Suggest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/styles/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/styles/Search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/styles/Suggest.css" beforeDir="false" />
-    </list>
+    <list default="true" id="f248c14c-fb9d-4693-aa00-aff9556888a9" name="Changes" comment="First Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +120,7 @@
       <workItem from="1742323369172" duration="201000" />
       <workItem from="1742323585060" duration="37000" />
       <workItem from="1742323651615" duration="91000" />
-      <workItem from="1742323955214" duration="9463000" />
+      <workItem from="1742323955214" duration="9755000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
