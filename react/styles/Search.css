@@ -1,0 +1,136 @@
+/* src/styles/Search.css */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #ffd2bd, #a6c4ff);
+}
+
+/* Search Container */
+.search-container {
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search-container h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Results Container */
+.results-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.results-container p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Image Grid */
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+.image-item button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #28a745;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-item button:hover {
+    background-color: #218838;
+}
+
+/* Profile View */
+.profile-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-container img {
+    max-width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-container button:hover {
+    background-color: #c82333;
+}
