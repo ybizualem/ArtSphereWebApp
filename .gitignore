@@ -12,6 +12,7 @@ __pycache__/
 
 .idea/
 .vscode/
+Backend/.idea
 
 
 *.log
@@ -23,6 +24,7 @@ secrets.json
 Met_Museum_Collection.csv
 Brooklyn Museumfull.csv
 Wadsworth Atheneum Collection.csv
+.DS_Store
 
 *~
 .DS_Store
