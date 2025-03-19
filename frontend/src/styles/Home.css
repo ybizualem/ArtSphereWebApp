@@ -53,7 +53,7 @@
 
 /* Image styling for all images */
 .image {
-    width: 100vw; /* Make image take up 100% of the viewport width */
+    width: 120vw; /* Make image take up 100% of the viewport width */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure the image scales correctly */
     border-radius: 12px; /* Rounded corners */

@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.idea/
+.vscode/
+
+*.log
+
+*.env
+config.json
+secrets.json
+
+Brooklyn Museumfull.csv
+Wadsworth Atheneum Collection.csv
+
+*~
+.DS_Store
+Thumbs.db
